@@ -4,7 +4,7 @@
 
 print("Programa de evalucion de notas de alumnos")
 
-nota_alumno=input("Introduce la nota:  ")
+nota_alumno=int(input("Introduce la nota:  "))
 
 def evaluacion(nota):
     valoracion="aprobado"
